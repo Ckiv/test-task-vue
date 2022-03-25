@@ -1,26 +1,46 @@
 <template>
   <div id="app">
-    <h1>TODO</h1>
+    <HeaderSite />
+    <div class="container">
+      <div class="description-product">
+        <PhotoProduct />
+        <DataProduct />
+      </div>
+      <GalleryPhoto />
+      <FooterSite />
+    </div>
   </div>
 </template>
 
 <script>
 
-
+import HeaderSite from "@/components/HeaderSite";
+import DataProduct from "@/components/DataProduct";
+import PhotoProduct from "@/components/PhotoProduct";
+import GalleryPhoto from "@/components/GalleryPhoto";
+import FooterSite from "@/components/FooterSite";
 export default {
   name: 'App',
   components: {
+    HeaderSite,
+    DataProduct,
+    PhotoProduct,
+    GalleryPhoto,
+    FooterSite
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.container {
+  width: 1390px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+.description-product {
+  display: flex;
+  justify-content: space-between;
 }
 </style>
