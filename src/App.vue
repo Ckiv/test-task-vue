@@ -6,6 +6,7 @@
         <PhotoProduct />
         <DataProduct />
       </div>
+      <p class="link-all-style text text-black text-normal"><a>Посмотреть все стили</a></p>
       <GalleryPhoto />
       <FooterSite />
     </div>
@@ -42,5 +43,47 @@ h1 {
 .description-product {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 32px;
+}
+.text {
+  font-family: 'Open Sans';
+  font-style: normal;
+}
+.text-black {
+  color: #333333;
+}
+.text-gray {
+  color: #828282;
+}
+.text-white {
+  color: #FFFFFF;
+}
+.text-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+.text-transparent {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+}
+.text-normal {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+}
+.text-uppercase {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.link-all-style {
+  text-align: center;
+  margin-bottom: 23px;
 }
 </style>
