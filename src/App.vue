@@ -75,9 +75,16 @@ h1 {
   line-height: 20px;
   letter-spacing: 0.04em;
 }
-.text-uppercase {
+.text-uppercase-bold {
   font-weight: 700;
   font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.text-uppercase-normal {
+  font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.04em;
   text-transform: uppercase;

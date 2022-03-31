@@ -6,7 +6,7 @@
       <p class="data-product-description__feedback text text-normal text-black">Отзывы ***** 14 отзывов ></p>
     </div>
     <div class="data-product-price">
-      <p class="data-product-price__current text text-uppercase text-black">
+      <p class="data-product-price__current text text-uppercase-bold text-black">
         800 ₽ <span class="data-product-price__full text-normal text-gray">1 500 ₽</span> >
       </p>
       <div class="data-product-price-discount">
@@ -25,9 +25,11 @@
     </div>
     <div class="data-product-count">
       <div class="data-product-count-inner">
-        <input type="number" class="data-product-count-product">
-        <button class="data-product-count__btn-add text text-normal text-white">Добавить в корзину</button>
-        <button class="data-product-count__count-favorite"><img src="../../public/icons/favorite-white.svg" alt="favorite" class="favorite"></button>
+        <form class="data-product-count-inner__form" action="#" method="post">
+          <input type="number" class="data-product-count-product">
+          <button class="data-product-count__btn-add text text-normal text-white">Добавить в корзину</button>
+          <button class="data-product-count__count-favorite"><img src="../../public/icons/favorite-white.svg" alt="favorite" class="favorite"></button>
+        </form>
       </div>
       <a href="#" class="data-product-count__link text text-normal text-black">Купить в 1 клик</a>
     </div>
@@ -126,9 +128,11 @@ export default {
   box-sizing: border-box;
 }
 .data-product-count-inner {
+  margin-bottom: 12px;
+}
+.data-product-count-inner__form {
   display: flex;
   align-items: center;
-  margin-bottom: 12px;
 }
 .favorite {
   margin: 0 auto;

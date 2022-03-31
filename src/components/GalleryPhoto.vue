@@ -21,6 +21,7 @@ export default {
         "gallery__img-1 gallery__img-2 gallery__img-3"
         "gallery__img-1 gallery__img-4 gallery__img-5";
   grid-gap: 16px;
+  margin-bottom: 142px;
 }
 .gallery__img-1 {
   grid-area: gallery__img-1;
